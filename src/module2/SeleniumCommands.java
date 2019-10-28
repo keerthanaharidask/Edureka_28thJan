@@ -10,7 +10,7 @@ public class SeleniumCommands {
 		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\InstallationStuff\\ExeFiles\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.gmail.com");
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 		driver.manage().window().maximize();
 		
 
